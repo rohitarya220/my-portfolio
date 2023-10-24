@@ -130,7 +130,7 @@ const Contact = () => {
             <input 
               type="text" 
               name="lastName" 
-              placeholder="First Name" 
+              placeholder="Last Name" 
               className="w-full px-4 py-3 rounded-md border border-[rgba(255,255,255,0.3)] bg-transparent focus:border-primary outline-none"
               value={data.lastName}
               onChange={handleTextChange}
