@@ -115,7 +115,7 @@ const Contact = () => {
 
 
       {/* main content */}
-      <div className="w-full flex flex-col items-center justify-start gap-4">
+      <div className="w-80 flex flex-col items-center justify-start gap-4">
         <div className="w-full md:w-[600px] p-2 flex flex-col items-center justify-start gap-4 ">
           {/* input field */}
           <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-4">

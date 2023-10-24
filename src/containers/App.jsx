@@ -1,13 +1,11 @@
 import React from "react";
 import {About, Contact, Footer, Header, Home, ParticlesContainer, Projects, ServiceCount, Skills} from "./";
-import { AnimatePresence } from "framer-motion";
-import { Socials } from "../utils/helper";
-import { HomeSocialLinks } from "../components";
+
 
 
 const App = () => {
   return (
-    <div className=" w-full xl:w-[1600px] py-32 px-4 lg:px-12 pr-4 lg:pr-32">
+    <div className=" w-full pl-7 pr-5  py-20  ">
 
 
 

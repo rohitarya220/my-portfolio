@@ -36,7 +36,7 @@ const About = () => {
 
           {/* content section */}
 
-          <div className="w-full px-8 flex flex-col gap-4 items-start justify-start">
+          <div className="w-full  flex flex-col gap-4 items-start justify-start">
             <p className="text-texlight text-base trackiw text-justify"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eveniet assumenda fugiat omnis hic consequuntur numquam distinctio, id atque, voluptatum doloremque, repellat et suscipit modi voluptatem illum sit voluptas molestiae?</p>
             <p className="text-texlight text-base trackiw text-justify"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eveniet assumenda fugiat omnis hic consequuntur numquam distinctio, id atque, voluptatum doloremque, repellat et suscipit modi voluptatem illum sit voluptas molestiae?</p>
             <p className="text-texlight text-base trackiw text-justify"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eveniet assumenda fugiat omnis hic consequuntur numquam distinctio, id atque, voluptatum doloremque, repellat et suscipit modi voluptatem illum sit voluptas molestiae?</p>

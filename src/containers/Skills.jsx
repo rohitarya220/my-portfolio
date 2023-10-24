@@ -5,7 +5,7 @@ import { SkillCard } from "../components";
 
 const Skills = () => {
   return(
-    <section id="skills" className=" flex items-center justify-center flex-col gap-12 ">
+    <section id="skills" className=" flex items-center justify-center flex-col gap-8 ">
        {/* title */}
       <div className="w-full flex items-center justify-center py-24">
         <motion.div 
@@ -28,7 +28,7 @@ const Skills = () => {
        
           {/* content section */}
 
-          <div className="w-full px-8 flex flex-col gap-4 items-start justify-start">
+          <div className="w-full  flex flex-col gap-4 items-start justify-start">
             <p className=" md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">My Skills & Work Experience</p>
             <p className="text-texlight text-base trackiw text-justify"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eveniet assumenda fugiat omnis hic consequuntur numquam distinctio, id atque, voluptatum doloremque, repellat et suscipit modi voluptatem illum sit voluptas molestiae?</p>
             <p className="text-texlight text-base trackiw text-justify"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eveniet assumenda fugiat omnis hic consequuntur numquam distinctio, id atque, voluptatum doloremque, repellat et suscipit modi voluptatem illum sit voluptas molestiae?</p>
@@ -37,7 +37,7 @@ const Skills = () => {
 
 
              {/* image section */}
-             <div className="w-full flex flex-col items-center justify-center px-8 gap-4 ">
+             <div className="w-full flex flex-col items-center justify-center  gap-4 ">
                  <SkillCard skill={'HTMl 5'} percentage={'95%'} color={'#ff3f3f'} move={true}  />
                  <SkillCard skill={'HTMl 5'} percentage={'95%'} color={'#ff3f3f'}  />
                  <SkillCard skill={'HTMl 5'} percentage={'95%'} color={'#ff3f3f'} move={true} />

@@ -51,7 +51,7 @@ const ProjectCard = ({project}) => {
       onMouseLeave={()=> setIsHovered(false)}
     >
       <motion.img 
-         className="w-full h-full object-contain rounded-lg" 
+         className="w-80  h-full object-contain rounded-lg" 
          src={project.imgSrc}
          whileHover={{scale: 1.1}}
       />
