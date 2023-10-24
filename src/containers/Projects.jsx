@@ -26,7 +26,7 @@ const Projects = () => {
 
 
       {/* main content */}
-       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full">
+       <div className="grid grid-cols-1 md:grid-cols-3 gap-4  w-full">
          <AnimatePresence>
            {ProjectsData &&
              ProjectsData.map((project, index) => (
@@ -53,14 +53,24 @@ const ProjectCard = ({project}) => {
       <motion.img 
          className="w-96  h-full object-contain rounded-lg" 
          src={project.imgSrc}
-         whileHover={{scale: 1.1}}
+         whileHover={{scale: 0.6}}
       />
+      {/* project inside text area */}
       {isHovered &&
        (<motion.div className=" absolute inset-0 backdrop-blur-md bg-[rgba(0,0,0,0.6)] flex items-center justify-center flex-col gap-2">
           <p className="text-xl text-primary">{project?.name} </p>
-          <a href={project?.gitURL} className="" > 
+          <p className="text-xs md:text-sm p-3">{project?.about} </p>
+          <div className=" flex justify-between items-center gap-40 ">
+           {/* github */}
+          <a target="_blank" href={project?.gitURL} className="" > 
              <FaGithub className="text-3xl hover:text-primary" />
           </a>
+            {/* live demo btn */}
+          <a target="_blank" href={project?.hostURL} className=" border border-[rgba(255,255,255,0.3)] rounded-xl px-3 py-1 text-primary active:95 group hover:border-primary " > 
+             live demo
+          </a>
+          </div>  
+         
        </motion.div>)
       }
 

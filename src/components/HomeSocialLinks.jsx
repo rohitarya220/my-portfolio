@@ -7,6 +7,7 @@ const HomeSocialLinks = ({ data, index }) => {
 
   return (
     <motion.a
+      target="_blank"
       key={index}
       href={data.uri}
       initial= {{ opacity: 0, y: 25}}

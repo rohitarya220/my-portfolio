@@ -43,7 +43,7 @@ const Home = () => {
                   <a 
                    href={Hero}
                    style={{boxShadow: " inset 0px 0px 10px rgba(255,255,255,0.3) "}}
-                   className=" md:ml-96   mt-7 border border-[rgba(255,255,255,0.3)] rounded-xl px-8 py-3 active:95 group hover:border-primary "
+                   className=" md:ml-32 mt-7 border border-[rgba(255,255,255,0.3)] rounded-xl px-8 py-3 active:95 group hover:border-primary "
                   >
                     <p className="  text-texlight group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r  group-hover:from-primary  group-hover:to-secondary ">
                        hire me
