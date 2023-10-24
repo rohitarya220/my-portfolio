@@ -4,6 +4,7 @@ import { Hero } from "../assets";
 import {HeroTypeWritter, HomeSocialLinks} from '../components'
 import { Socials } from "../utils/helper";
 
+
 const Home = () => {
   return(
     <section className="flex items-center justify-center flex-col gap-12 relative" id="home">
@@ -25,7 +26,7 @@ const Home = () => {
                 </h2>
 
 
-                <p className=" text-base text-texlight md:mt-8 text-center p-4 lg:text-start md:p-0"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae vitae repellendus vel minus distinctio magni asperiores ullam, nulla sed eaque, adipisci omnis quod hic odit totam sunt maxime, aperiam autem!</p>
+                <p className=" text-base text-texlight md:mt-8 text-center  lg:text-start md:p-0"> I'm an aspiring <span className=" font-bold text-white">frontend developer</span> with a passion for creating user-friendly web experiences. Self-learner in web development, I'm excited to dive into coding, design, and innovation to bring creative ideas to life. Explore my portfolio to see my work, and let's start this web development journey together.</p>
 
                  {/* social media links */}
                  <div className="flex items-center justify-center gap-8 md:gap-12 mt-2 md:mt-10">
@@ -40,22 +41,22 @@ const Home = () => {
 
                   {/* hire me button */}
                   <a 
-                   href="#"
+                   href={Hero}
                    style={{boxShadow: " inset 0px 0px 10px rgba(255,255,255,0.3) "}}
-                   className=" flex   mt-7 border border-[rgba(255,255,255,0.3)] rounded-xl px-8 py-3 active:95 group hover:border-primary "
+                   className=" md:ml-96   mt-7 border border-[rgba(255,255,255,0.3)] rounded-xl px-8 py-3 active:95 group hover:border-primary "
                   >
                     <p className="  text-texlight group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r  group-hover:from-primary  group-hover:to-secondary ">
                        hire me
                     </p>
                   </a>
-
-               
-
-
            </div>
 
+
+
+
+
           {/* hero image */}
-           <div className="sm:w-[40] md:w-[70vh] h-full flex items-start justify-center lg:items-center">
+           <div className="  sm:w-[40] md:w-[70vh] h-full flex items-start justify-center mt-8 lg:items-center">
             <motion.img 
               initial={{ y: 0}}
               animate={{y: [-10, 10, -10]}}
@@ -65,7 +66,7 @@ const Home = () => {
                 ease: "linear",
               }}
               src={Hero}
-              className="w-auto h-auto object-contain"
+              className="w-auto rounded-full h-auto object-contain"
             />
 
            

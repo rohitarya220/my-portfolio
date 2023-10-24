@@ -1,13 +1,13 @@
 import {
   FaDiagramProject,
   FaEnvelope,
-  FaFacebookF,
+  FaInstagram,
+  FaWhatsapp,
   FaGithub,
   FaHouse,
   FaLinkedinIn,
   FaRenren,
   FaUser,
-  FaYoutube,
 } from "react-icons/fa6";
 import {
   ChatApp,
@@ -23,27 +23,27 @@ import {
 
 export const Socials = [
   {
-    id: `facebook-${Date.now()}`,
-    Icon: FaFacebookF,
-    uri: "",
+    id: `whatsapp-${Date.now()}`,
+    Icon: FaWhatsapp,
+    uri: "https://wa.me/qr/TN6FITTUQUXUP1",
     color: "#1877F2",
   },
   {
     id: `linkedin-${Date.now()}`,
     Icon: FaLinkedinIn,
-    uri: "",
+    uri: "https://www.linkedin.com/in/rohitarya220/",
     color: "#0072b1",
   },
   {
     id: `github-${Date.now()}`,
     Icon: FaGithub,
-    uri: "",
+    uri: "https://github.com/rohitarya220",
     color: "#fff",
   },
   {
-    id: `youtube-${Date.now()}`,
-    Icon: FaYoutube,
-    uri: "",
+    id: `insta-${Date.now()}`,
+    Icon: FaInstagram,
+    uri: "https://instagram.com/rohit_arya220?igshid=OGQ5ZDc2ODk2ZA==",
     color: "#ff0000",
   },
 ];

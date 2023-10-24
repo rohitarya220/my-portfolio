@@ -39,7 +39,7 @@ const SkillCard = ({skill, percentage, color, move}) => {
              style={{background: color}}
              className="w-full absolute bottom-0 left-0 flex items-center justify-center"
           >
-            <p className="text-bgPrimary z-10 font-sans font-bold tracking-wider">{percentage} </p>
+           
           </motion.div>
         </div>
       </div>

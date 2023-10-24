@@ -3,7 +3,7 @@ import React from "react";
 const ServiceCard = ({ count, text}) => {
   return (
     <div 
-      className="w-48 lg:w-52 h-32 rounded-md border border-[rgba(255,255,255,0.3)] flex items-center justify-center flex-col gap-2 group hover:border-primary cursor-pointer relative bg-bgPrimary"
+      className="w-72 lg:w-52 h-32 rounded-md border border-[rgba(255,255,255,0.3)] flex items-center justify-center flex-col gap-2 group hover:border-primary cursor-pointer relative bg-bgPrimary"
       style={{ boxShadow: " inset 0 0 10px rgba(255,255,255,0.3)"}}
     >
       <div className="hidden group-hover:block absolute -inset-1 blur-md bg-gradient-to-br from-primary to-secondary -z-10"></div>

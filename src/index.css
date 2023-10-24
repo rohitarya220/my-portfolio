@@ -10,7 +10,7 @@ body {
   height: 100vh;
   background: #020010;
   color: #ffffff;
-  font-family: "Croissant One", cursive;
+  font-family: "Croissant ", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
