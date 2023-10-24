@@ -18,7 +18,7 @@ const Footer = () => {
       </AnimatePresence>
     </div>
 
-    <div className="w-full grid grid-cols-1 md:grid-cols-3 mt-12 p-4">
+    {/* <div className="w-full grid grid-cols-1 md:grid-cols-3 mt-12 p-4">
       <p className="text-texlight text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non ducimus, error rerum officiis illo laboriosam similique officia, quia placeat, dolorem accusamus. Veniam sapiente cumque excepturi voluptatum assumenda dolorum sequi corrupti.</p>
       <p className="text-texlight text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam in nam ipsa, voluptate facere quisquam, cum, quidem labore dolorem modi molestiae tempore dicta veritatis rem cumque accusamus expedita perferendis quasi!</p>
       <div className="w-full flex flex-col items-center justify-center gap-3">
@@ -29,7 +29,7 @@ const Footer = () => {
         </a>
 
       </div>
-    </div>
+    </div> */}
   </div>
   )
 }

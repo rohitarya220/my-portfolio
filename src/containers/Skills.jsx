@@ -7,7 +7,7 @@ const Skills = () => {
   return(
     <section id="skills" className=" flex items-center justify-center flex-col gap-8 ">
        {/* title */}
-      <div className="w-full flex items-center justify-center py-16">
+      <div className="w-full flex items-center justify-center py-10">
         <motion.div 
           className="  whitespace-nowrap flex items-center justify-around w-52"
           initial={{ opacity: 0, width: 0}}

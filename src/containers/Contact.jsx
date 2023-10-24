@@ -98,7 +98,7 @@ const Contact = () => {
           )}
         </AnimatePresence>
        {/* title */}
-      <div className="w-full flex items-center justify-center py-24">
+      <div className="w-full flex items-center justify-center py-14">
         <motion.div 
           className=" flex items-center justify-around w-52"
           initial={{ opacity: 0, width: 0}}
@@ -160,7 +160,7 @@ const Contact = () => {
           />
 
           {/* button */}
-          <div className="w-full flex items-center justify-center md:justify-end">
+          <div className="w-full flex items-center justify-center ">
             <button onClick={sendMessage} className=" px-12 py-3 bg-gradient-to-br from-primary to-secondary rounded-md w-full md:w-auto hover:bg-gradient-to-br hover:from-black hover:to-black hover:border hover:border-primary hover:text-primary">Send</button>
           </div>
         </div>

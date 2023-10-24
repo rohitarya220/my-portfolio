@@ -41,7 +41,7 @@ const Home = () => {
 
                   {/* hire me button */}
                   <a 
-                   href={Hero}
+                   href='#'
                    style={{boxShadow: " inset 0px 0px 10px rgba(255,255,255,0.3) "}}
                    className=" md:ml-32 mt-7 border border-[rgba(255,255,255,0.3)] rounded-xl px-8 py-3 active:95 group hover:border-primary "
                   >
