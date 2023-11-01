@@ -18,18 +18,15 @@ const Footer = () => {
       </AnimatePresence>
     </div>
 
-    {/* <div className="w-full grid grid-cols-1 md:grid-cols-3 mt-12 p-4">
-      <p className="text-texlight text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non ducimus, error rerum officiis illo laboriosam similique officia, quia placeat, dolorem accusamus. Veniam sapiente cumque excepturi voluptatum assumenda dolorum sequi corrupti.</p>
-      <p className="text-texlight text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam in nam ipsa, voluptate facere quisquam, cum, quidem labore dolorem modi molestiae tempore dicta veritatis rem cumque accusamus expedita perferendis quasi!</p>
-      <div className="w-full flex flex-col items-center justify-center gap-3">
-        <p className="text-texlight text-center"> rohitarya7478@gmail.com</p>
-        <p className="text-texlight text-center"> 8918004993</p>
-        <a href="#">
-          <p className=" text-primary text-center"> Hire me</p>
-        </a>
-
+   
+      <div className="w-full flex flex-col items-center justify-center mt-4 gap-2">
+        <a target="_blank" href='https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRnZvvrqbcvNQjJTSTPQFLrTCZnQGSzjvtJGHnFpGkqMqWScTMTZJDCFBjjkcLnhQxFrWmb' className="text-white cursor-pointer text-center"> rohitmodi220@gmail.com</a>
+        <p className="text-white cursor-pointer text-center"> 8918004993</p>
       </div>
-    </div> */}
+      
+
+      <div className='relative -bottom-28 text-center text-primary '>Made with ❤️ and code by <span className=' text-white font-bold'>Rohit Modi</span> No magic beans involved!</div>
+    
   </div>
   )
 }

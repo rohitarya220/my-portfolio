@@ -5,7 +5,7 @@ import { Leaf1, Leaf2, d2d, internpe, sparks } from "../assets";
 
 const About = () => {
   return(
-    <section id="about" className=" flex items-center justify-center flex-col gap-12 ">
+    <section id="about" className="md:mr-32 flex items-center justify-center flex-col gap-12 ">
        {/* title */}
       <div className="w-full flex items-center justify-center py-12">
         <motion.div 

@@ -21,7 +21,7 @@ const ProjectCard = ({project}) => {
         {isHovered &&
          (<motion.div className=" absolute inset-0 backdrop-blur-md bg-[rgba(0,0,0,0.6)] flex items-center justify-center flex-col gap-2">
             <p className="text-xl text-primary">{project?.name} </p>
-            <p className="text-xs md:text-sm p-3">{project?.about} </p>
+            <p className="text-xs md:text-xm p-3">{project?.about} </p>
             <div className=" flex justify-between items-center gap-40 ">
              {/* github */}
             <a target="_blank" href={project?.gitURL} className="" > 

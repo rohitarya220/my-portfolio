@@ -8,7 +8,7 @@ import { FaGithub } from "react-icons/fa6";
 
 const Projects = () => {
   return(
-    <section id="projects" className=" flex items-center justify-center flex-col gap-7 ">
+    <section id="projects" className="md:mr-32 flex items-center justify-center flex-col gap-7 ">
        {/* title */}
       <div className="w-full flex items-center justify-center py-14">
         <motion.div 
@@ -19,7 +19,7 @@ const Projects = () => {
           transition={{ delay: 0.4}}
         >
           <img src={Leaf1} className=" w-6 h-auto object-contain" />
-             <p className=" text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Projects</p>
+          <p className=" text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Projects</p>
           <img src={Leaf2} className=" w-6 h-auto object-contain" />
 
         </motion.div>
@@ -31,7 +31,7 @@ const Projects = () => {
          <AnimatePresence>
            {ProjectsData &&
              ProjectsData.map((project, index) => (
-              <ProjectCard key={project.id} project={project}  />
+              <ProjectCard  key={project.id} project={project}  />
              ))
            }
          </AnimatePresence>
