@@ -25,7 +25,7 @@ const Footer = () => {
       </div>
       
 
-      <div className='relative -bottom-28 text-center text-primary '>Made with ❤️ and code by <span className=' text-white font-bold'>Rohit Modi</span> No magic beans involved!</div>
+      <div className='mt-9 md:mt-0 relative md:-bottom-28 text-center text-primary '>Made with ❤️ and code by <span className=' text-white font-bold'>Rohit Modi</span> No magic beans involved!</div>
     
   </div>
   )
