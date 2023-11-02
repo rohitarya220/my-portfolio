@@ -10,15 +10,13 @@ import {
   FaUser,
 } from "react-icons/fa6";
 import {
-  ChatApp,
-  CodePenClone,
-  FreshJuiceUI,
-  ImageSharing,
-  OpenAI,
-  PixabayClone,
-  PortfolioFirebase,
-  RestaurantClone,
-  SocialMedia,
+  movix,
+  myblog,
+  movieReview,
+  myPortfolio,
+  todo,
+  usability,
+
 } from "../assets";
 
 export const Socials = [
@@ -85,7 +83,7 @@ export const ProjectsData = [
   {
     id: `food-${Date.now()}`,
     name: "Movix",
-    imgSrc: CodePenClone,
+    imgSrc: movix,
     gitURL: "https://github.com/rohitarya220/movie-Website-movix",
     hostURL: 'https://movieapp-two-rho.vercel.app/',
     about: 'I created a movie website that demonstrates my web development skills. It provides real-time movie data, user ratings, and comments, all in a responsive and visually engaging design.'
@@ -93,7 +91,7 @@ export const ProjectsData = [
   {
     id: `codepen-${Date.now()}`,
     name: "Blog Website",
-    imgSrc: CodePenClone,
+    imgSrc: myblog,
     gitURL: "https://github.com/rohitarya220/blog-website",
     hostURL: 'https://blog-website-iota-five.vercel.app/',
     about: 'This project showcases a visually appealing and functional blog website created using HTML, CSS, and React. With features like post creation and editing'
@@ -101,7 +99,7 @@ export const ProjectsData = [
   {
     id: `openai-${Date.now()}`,
     name: "Movie Review",
-    imgSrc: OpenAI,
+    imgSrc:   movieReview,
     gitURL: "https://github.com/rohitarya220/Filmyduniya-movieWebsite-react",
     hostURL: 'https://filmyduniya.vercel.app/',
     about: 'Filmyduniya-movieWebsite-react is a React-based movie website. It offers movie details, ratings, and more.'
@@ -109,7 +107,7 @@ export const ProjectsData = [
   {
     id: `imageSharing-${Date.now()}`,
     name: "MY Portfolio",
-    imgSrc: ImageSharing,
+    imgSrc: myPortfolio,
     gitURL: "https://github.com/rohitarya220/my-portfolio",
     hostURL: 'https://my-portfolio-lake-psi.vercel.app/',
     about: '  I have showcased some of my best work. Feel free to browse through and get to know more about my skills and experiences. Your feedback is highly appreciated'
@@ -117,7 +115,7 @@ export const ProjectsData = [
   {
     id: `chatapp-${Date.now()}`,
     name: "To-do-app",
-    imgSrc: ChatApp,
+    imgSrc: todo,
     gitURL: "https://github.com/Vetrivel-VPhttps://github.com/rohitarya220/todoApp-reduxToolkit",
     hostURL: 'https://todoapprr.vercel.app/',
     about: 'a task management app built with Redux Toolkit. It lets you easily manage and organize your to-do list with features like task creation, editing, and filtering. '
@@ -126,30 +124,10 @@ export const ProjectsData = [
   {
     id: `pixabayclone-${Date.now()}`,
     name: "Usability clone",
-    imgSrc: PixabayClone,
+    imgSrc: usability,
     gitURL: "https://github.com/rohitarya220/Usabilityhub-websiteClone",
-    hostURL: '',
+    hostURL: 'https://rohitwebb.netlify.app/',
     about: 'Usabilityhub-websiteClone. I have recreated a user interface inspired by UsabilityHub.'
   },
-  // {
-  //   id: `freshjuiceui-${Date.now()}`,
-  //   name: "Fresh Juice UI Build",
-  //   imgSrc: FreshJuiceUI,
-  //   gitURL: "https://github.com/Vetrivel-VP",
-  //   hostURL: ''
-  // },
-  // {
-  //   id: `socialmedia-${Date.now()}`,
-  //   name: "Social Media App",
-  //   imgSrc: SocialMedia,
-  //   gitURL: "https://github.com/Vetrivel-VP",
-  //   hostURL: ''
-  // },
-  // {
-  //   id: `portfoliofirebase-${Date.now()}`,
-  //   name: "Portfolio UI Fireabse",
-  //   imgSrc: PortfolioFirebase,
-  //   gitURL: "https://github.com/Vetrivel-VP",
-  //   hostURL: ''
-  // },
+  
 ];
