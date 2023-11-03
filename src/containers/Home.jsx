@@ -21,7 +21,7 @@ const Home = () => {
 
                 {/* type writer */}
 
-                <h2 className=" text-2xl lg:text-4xl text-texlight md:mt-2"> And I'm
+                <h2 className=" text-2xl lg:text-4xl text-texlight md:mt-2">I'm
                    <HeroTypeWritter words={[" a Developer...", " a Freelancer..."]} speed={100} />
                 </h2>
 
