@@ -22,11 +22,11 @@ const Home = () => {
                 {/* type writer */}
 
                 <h2 className=" text-2xl lg:text-4xl text-texlight md:mt-2">I'm
-                   <HeroTypeWritter words={[" a Developer...", " a Freelancer..."]} speed={100} />
+                   <HeroTypeWritter words={[" Web Developer...", " a Freelancer..."]} speed={100} />
                 </h2>
 
 
-                <p className=" text-base text-texlight md:mt-8 text-center  lg:text-start md:p-0"> I'm an aspiring <span className=" font-bold text-white">frontend developer</span> with a passion for creating user-friendly web experiences. Self-learner in web development, I'm excited to dive into coding, design, and innovation to bring creative ideas to life. Explore my portfolio to see my work, and let's start this web development journey together.</p>
+                <p className=" text-base text-texlight md:mt-8 text-center  lg:text-start md:p-0"> I'm an aspiring <span className=" font-bold text-white">frontend web developer</span> with a passion for creating user-friendly web experiences. Self-learner in web development, I'm excited to dive into coding, design, and innovation to bring creative ideas to life. Explore my portfolio to see my work, and let's start this web development journey together.</p>
 
                  {/* social media links */}
                  <div className="flex items-center justify-center gap-8 md:gap-12 mt-2 md:mt-10">

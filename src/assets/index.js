@@ -1,7 +1,7 @@
 export { default as Hero } from "./img/hero.jpg";
 export { default as Leaf1 } from "./img/Leaf.png";
 export { default as Leaf2 } from "./img/leaf2.png";
-export { default as resume } from "./img/resume.png";
+export { default as resume } from "./img/resume.pdf";
 
 // certificate
 export { default as d2d } from "./img/certificate/d2d.png";
